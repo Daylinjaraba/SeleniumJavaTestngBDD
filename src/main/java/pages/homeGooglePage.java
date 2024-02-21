@@ -15,6 +15,7 @@ public class homeGooglePage {
 	}
 	
 	public void searchPhrase(String phrase) {
+		/*the phrase is sent*/
 		searchBox.sendKeys(phrase);
 		searchBox.submit();
 	}
